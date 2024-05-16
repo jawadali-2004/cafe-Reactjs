@@ -1,4 +1,4 @@
-import React { useState,useEffect} from 'react'
+import { useState,useEffect} from 'react'
 
 const App = () => {
 
@@ -57,7 +57,7 @@ const App = () => {
     <div className='grid'>
 
       {data?.map((packs)=>{
-        const {strMeal,strMealThumb,strArea,strCategory} =packs;
+        const {strMeal,strMealThumb} =packs;
 
         return(
           <>
